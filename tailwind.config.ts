@@ -68,6 +68,7 @@ export default {
         "green-gradient": "linear-gradient(to bottom, white, #c9e5df)",
         "dark-blue-gradient": "linear-gradient(to right, black, #102032)",
         "light-green-gradient": "linear-gradient(to right, #00666C, #102032)",
+        "bg-card-api": "url(/InsightsCard.png)"
       },
       borderRadius: {
         lg: "var(--radius)",

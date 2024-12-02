@@ -20,6 +20,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         novasce: 'rounded-full w-[300px] bg-[#00666C] text-white transition-all duration-700 hover:bg-[#65c0ba] hover:scale-110 hover:border hover:border-[#00666C]',
+        novasce_secondary: 'rounded-full bg-white text-[#00666C] transition-all duration-700 hover:scale-[1.1]'
       },
       size: {
         default: "h-9 px-4 py-2",

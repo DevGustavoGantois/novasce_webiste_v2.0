@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffff;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00666c;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
