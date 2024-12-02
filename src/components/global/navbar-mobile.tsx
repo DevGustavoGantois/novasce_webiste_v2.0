@@ -12,14 +12,6 @@ import Link from "next/link";
 export function NavbarMobile() {
   return (
     <nav className="mb-20 flex justify-between items-center">
-      {/*<div className="absolute top-8 left-3">
-                <Image
-                src="/NovasceLogo.svg"
-                width={180}
-                height={150}
-                alt=""
-                 />
-            </div>*/}
       <Sheet>
         <SheetTrigger className="fixed top-6 right-0 backdrop-blur-2xl w-full bg-white/30 rounded-full p-3">
           <FaBars className="text-petroleum_green text-3xl transition-all duration-700 hover:scale-[1.1]" />
