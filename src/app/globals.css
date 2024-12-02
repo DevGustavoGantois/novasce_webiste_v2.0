@@ -2,8 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel {
+  overflow: hidden;
+  padding: 30px 0;
+  white-space: nowrap;
+  margin-top: 8rem;
+}
+
+.carousel::after, .carousel::before {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+
+
+.carousel-slide {
+  animation: 35s slideCarousel infinite linear;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-slide p {
+  margin: 0 40px;
+  font-size: 20px;
 }
 
 @layer base {
