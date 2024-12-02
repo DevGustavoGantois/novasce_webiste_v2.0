@@ -26,22 +26,22 @@ export function HomeContact() {
               <div className="flex flex-col gap-8 justify-center items-center">
                 <Button variant="blue_btn_novasce" className="p-6">
                   <Link href="" target="_blank">
-                    discord
+                    DISCORD
                   </Link>
                 </Button>
                 <Button variant="blue_btn_novasce" className="p-6">
                   <Link href="" target="_blank">
-                    whatsapp
+                    WHATSAPP
                   </Link>
                 </Button>
                 <Button variant="blue_btn_novasce" className="p-6">
                   <Link href="" target="_blank">
-                    instagram
+                    INSTAGRAM
                   </Link>
                 </Button>
                 <Button variant="blue_btn_novasce" className="p-6">
                   <Link href="" target="_blank">
-                    linkedin
+                    LINKEDIN
                   </Link>
                 </Button>
               </div>
