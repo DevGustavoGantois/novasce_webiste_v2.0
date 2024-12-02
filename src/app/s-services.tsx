@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi"; // Importando o ícone da seta
 
 export function HomeService() {
   return (
-    <section className="bg-white max-w-[1500px] mx-auto h-full p-6 lg:p-0 mt-10 lg:mt-20 cursor-pointer">
+    <section className="bg-white max-w-[1500px] mx-auto h-full p-6 lg:p-0 mt-10 lg:mt-40 cursor-pointer">
       <div className="flex justify-center lg:justify-start">
         <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
           <div>
