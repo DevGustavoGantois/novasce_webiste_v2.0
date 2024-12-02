@@ -1,5 +1,6 @@
 import { CarouselSlideHero } from "@/components/global/carousel/carousel-slide-hero";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function HomeHero() {
     return (
@@ -10,7 +11,9 @@ export function HomeHero() {
                     <div className="mt-12 flex justify-center flex-col items-center">
                     <p className="text-center max-w-[500px] font-semibold text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className="mt-12">
-                        <Button variant="novasce">Contato</Button>
+                        <Button variant="novasce">
+                            <Link href="#Contato">Contato</Link>
+                        </Button>
                     </div>
                     </div>
                 </div>
