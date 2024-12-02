@@ -1,3 +1,4 @@
+import { HomeContact } from "./s-contact";
 import { HomeHero } from "./s-hero";
 import { HomeInsights } from "./s-insights";
 import { HomeProducts } from "./s-products";
@@ -10,7 +11,7 @@ export default function Page() {
       <HomeService />
       <HomeProducts />
       <HomeInsights />
-      <div className="h-[300px]" />
+      <HomeContact />
     </>
   );
 }

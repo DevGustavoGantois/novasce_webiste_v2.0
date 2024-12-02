@@ -5,8 +5,8 @@ import { FiArrowRight } from "react-icons/fi";
 
 export function HomeProducts() {
     return (
-        <section>
-            <div className="max-w-[1500px] mx-auto p-6 lg:p-0 mt-20 lg:mt-40">
+        <section id="Produtos">
+            <div className="max-w-[1440px] mx-auto p-6 lg:p-0 mt-20 lg:mt-40">
             <div className="flex justify-center lg:justify-start mt-10 lg:mt-20 mb-10 lg:mb-20">
                 <Image src="/TitleProducts.svg" width={600} height={300} alt="" />
             </div>

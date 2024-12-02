@@ -20,7 +20,9 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         novasce: 'rounded-full w-[300px] bg-[#00666C] text-white transition-all duration-700 hover:bg-[#65c0ba] hover:scale-110 hover:border hover:border-[#00666C]',
-        novasce_secondary: 'rounded-full bg-white text-[#00666C] transition-all duration-700 hover:scale-[1.1]'
+        novasce_secondary: 'rounded-full bg-white text-[#00666C] transition-all duration-700 hover:scale-[1.1]',
+        novasce_tertiary: 'rounded-3xl uppercase bg-[#00666C] text-white text-md lg:text-2xl font-bold w-[400px] transition-transform duration-500 hover:scale-105 hover:shadow-lg',
+        blue_btn_novasce: 'rounded-2xl text-center bg-[#102032] w-[300px] lg:w-[400px] text-white font-medium uppercase text-xl transition-all duration-500 cursor-pointer hover:bg-transparent hover:border-1 hover:border-deep_blue hover:scale-[1.1] hover:shadow-lg',
       },
       size: {
         default: "h-9 px-4 py-2",
