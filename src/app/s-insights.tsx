@@ -17,7 +17,7 @@ export function HomeInsights() {
         </div>
       </div>
       <div className="flex flex-col justify-center lg:flex-row gap-6 lg:gap-12">
-        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[450px] relative">
+        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[520px] relative">
           <div className="absolute bottom-0 left-0 right-0 bg-white/20 backdrop-blur-lg p-4 rounded-b-lg">
             <Button variant="novasce_secondary">02/10/2024</Button>
             <p className="lg:text-start font-light mt-4 text-left flex-1">
@@ -26,7 +26,7 @@ export function HomeInsights() {
           </div>
         </div>
 
-        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[450px] relative">
+        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[520px] relative">
           <div className="absolute bottom-0 left-0 right-0 bg-white/20 backdrop-blur-lg p-4 rounded-b-lg">
             <Button variant="novasce_secondary">02/10/2024</Button>
             <p className="lg:text-start font-light mt-4 text-left flex-1">
@@ -35,7 +35,7 @@ export function HomeInsights() {
           </div>
         </div>
 
-        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[450px] relative">
+        <div className="p-6 md:p-8 lg:p-12 bg-bg-card-api bg-cover bg-center text-white rounded-lg w-full h-[250px] lg:h-[520px] relative">
           <div className="absolute bottom-0 left-0 right-0 bg-white/20 backdrop-blur-lg p-4 rounded-b-lg">
             <Button variant="novasce_secondary">02/10/2024</Button>
             <p className="lg:text-start font-light mt-4 text-left flex-1">

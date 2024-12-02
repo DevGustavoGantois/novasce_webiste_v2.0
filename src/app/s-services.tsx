@@ -18,7 +18,7 @@ export function HomeService() {
       <div className="mt-10">
         <div className="flex flex-col justify-center lg:flex-row gap-8 lg:gap-16">
     
-          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[450px] w-full transition-all duration-700 hover:bg-deep_blue">
+          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[520px] w-full transition-all duration-700 hover:bg-deep_blue">
             <h1 className="text-white font-bold text-2xl lg:text-3xl mt-10 lg:mt-20 text-center group-hover:text-white">
               Websites
             </h1>
@@ -36,7 +36,7 @@ export function HomeService() {
             </div>
           </div>
 
-          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[450px] w-full transition-all duration-700 hover:bg-deep_blue">
+          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[520px] w-full transition-all duration-700 hover:bg-deep_blue">
             <h1 className="text-white font-bold text-2xl lg:text-3xl mt-10 lg:mt-20 text-center group-hover:text-white">
               Aplicativos
             </h1>
@@ -52,7 +52,7 @@ export function HomeService() {
               </Link>
             </div>
           </div>
-          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[450px] w-full transition-all duration-700 hover:bg-deep_blue">
+          <div className="group flex flex-col gap-8 p-4 lg:p-10 bg-petroleum_green rounded-2xl lg:h-[520px] w-full transition-all duration-700 hover:bg-deep_blue">
             <h1 className="text-white font-bold text-2xl lg:text-3xl mt-10 lg:mt-20 text-center group-hover:text-white">
               Sistemas
             </h1>
