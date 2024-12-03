@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from "react";
 
 export function HomeAbout() {
-    const [index, setIndex] = useState(0);
-
+    const [ index ,setIndex] = useState(0);
     return (
         <section className="bg-petroleum_green p-6 pt-16 mb-20 overflow-hidden">
             <div className="max-w-[1440px] mx-auto p-6 lg:p-0" data-aos="fade-up">
@@ -31,7 +30,7 @@ export function HomeAbout() {
                 {[1, 2, 3, 4].map((_, i) => (
                     <motion.div
                         key={i}
-                        onViewportEnter={() => setIndex(i)}
+                        onViewportEnter={() => setIndex(index)}
                         initial={{ opacity: 0, x: i % 2 === 0 ? -100 : 100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ amount: 0.8 }}
