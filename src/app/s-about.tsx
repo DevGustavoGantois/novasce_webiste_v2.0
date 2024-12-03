@@ -1,4 +1,30 @@
+'use client'
 import Link from "next/link";
+import { motion } from 'framer-motion';
+import { useEffect, useState } from "react";
+
+const CardInteractionsData = [
+    {
+        number: '1',
+        title: 'Lorem Ipsum',
+        decription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    },
+    {
+        number: '2',
+        title: 'Lorem Ipsum',
+        decription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    },
+    {
+        number: '3',
+        title: 'Lorem Ipsum',
+        decription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    },
+    {
+        number: '4',
+        title: 'Lorem Ipsum',
+        decription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    }
+]
 
 export function HomeAbout() {
     return (
@@ -19,6 +45,15 @@ export function HomeAbout() {
                 <p className="text-white text-light text-sm md:text-base" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
                 </div>
+            </div>
+            <div>
+                {CardInteractionsData.map((item, index) => {
+                    return (
+                        <div key={index}>
+                            <h1 className="">{item.number}</h1>
+                        </div>
+                    )
+                })}
             </div>
         </section>
     )
