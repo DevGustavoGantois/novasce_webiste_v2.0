@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function HomeHero() {
     return (
-        <section className="bg-green-gradient mt-8 lg:mt-20" id="Home">
+        <section className="bg-green-gradient mt-2 lg:mt-20" id="Home">
                 <div className="max-w-[1440px] mx-auto h-full p-6 lg:p-0">
                 <div className="flex justify-center items-center flex-col">
                    <div className="flex justify-center max-w-[850px] mt-0 lg:mt-32">
