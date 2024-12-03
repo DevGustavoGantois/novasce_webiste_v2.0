@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function CarouselSlideProducts() {
   return (
-    <div className="flex w-full h-full overflow-hidden p-6 lg:p-12 bg-[#c9e5df]">
+    <div className="flex w-full h-full overflow-hidden p-6 lg:p-12 bg-[#c9e5df]" data-aos="flip-down" data-aos-offset="50">
       <div className="animate-slideCarousel flex gap-32 whitespace-nowrap p-4">
         <Image
           src="/NovasceLogo.svg"

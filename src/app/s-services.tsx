@@ -10,18 +10,18 @@ export function HomeService() {
       id="Servicos"
     >
       <div className="flex flex-col lg:flex-row lg:justify-between items-center">
-        <div className="flex justify-start w-full lg:w-1/2">
+        <div className="flex justify-start w-full lg:w-1/2" data-aos="zoom-in">
           <Image src="/TitleService.svg" width={600} height={200} alt="" />
         </div>
         <div className="flex justify-end lg:w-1/2 text-center lg:text-end">
-          <div className="flex items-center gap-4">
-            <div className="backdrop-blur-2xl w-full bg-[#f5f5f5] rounded-full p-5 transition-all duration-700 hover:bg-petroleum_green hover:text-white hover:scale-[1.1]">
-              <ArrowLeft className="text-petroleum_green transition-all duration-700 hover:text-white" />
-            </div>
-            <div className="backdrop-blur-2xl w-full bg-[#f5f5f5] rounded-full p-5 transition-all duration-700 hover:bg-petroleum_green hover:text-white hover:scale-[1.1]">
-              <ArrowRight className="text-petroleum_green transition-all duration-700 hover:text-white" />
-            </div>
+        <div className="flex items-center gap-4">
+          <div className="backdrop-blur-2xl w-full bg-[#f5f5f5] rounded-full p-5 transition-all duration-500 hover:scale-[1.1]">
+            <ArrowLeft className="text-petroleum_green " />
           </div>
+          <div className="backdrop-blur-2xl w-full bg-[#f5f5f5] rounded-full p-5 transition-all duration-500 hover:scale-[1.1]">
+            <ArrowRight className="text-petroleum_green" />
+          </div>
+        </div>
         </div>
       </div>
       <div className="mt-10">

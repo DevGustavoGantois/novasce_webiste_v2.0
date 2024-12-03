@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function HomeContact() {
   return (
-    <section className="p-6 lg:p-12 bg-petroleum_green mt-12 lg:mt-32" id="Contato">
+    <section className="p-6 lg:p-12 bg-petroleum_green mt-12 lg:mt-32" id="Contato" data-aos="zoom-in">
       <div className="max-w-[1440px] mx-auto p-6 lg:p-0">
         <div className="flex flex-col justify-center gap-12">
           <div className="flex flex-col gap-20">

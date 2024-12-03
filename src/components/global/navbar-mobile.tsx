@@ -17,7 +17,7 @@ export function NavbarMobile() {
           <FaBars className="text-petroleum_green text-3xl transition-all duration-700 hover:scale-[1.1]" />
         </SheetTrigger>
         <SheetContent className="bg-white/90 pt-16">
-          <SheetHeader className="mt-12 flex justify-center items-center">
+          <SheetHeader className="mt-24 flex justify-center items-center">
             <SheetTitle>
               <Image src="/NovasceLogo.svg" width={200} height={200} alt="" />
             </SheetTitle>
