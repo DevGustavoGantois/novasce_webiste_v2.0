@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 export function HomeInsights() {
   return (
     <section className="max-w-[1440px] mx-auto p-6 lg:p-0 mt-10 lg:mt-40 overflow-hidden" id="Insights">
-      <div className="flex flex-col lg:flex-row items-center lg:justify-between">
+      <div className="flex flex-col justify-center lg:flex-row items-center lg:justify-between">
         <div className="flex justify-center lg:justify-start mb-8 lg:mb-16" data-aos="flip-left">
           <Image src="/TitleInsights.svg" width={600} height={200} alt="" />
         </div>

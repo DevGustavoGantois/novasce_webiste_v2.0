@@ -3,10 +3,33 @@ import Link from "next/link";
 import { motion } from 'framer-motion';
 import { useState } from "react";
 
+const cardInteractionsData = [
+        {
+            number: '01',
+            title: 'Lorem Ipsum',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        },
+        {
+            number: '02',
+            title: 'Lorem Ipsum',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        },
+        {
+            number: '03',
+            title: 'Lorem Ipsum',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        },
+        {
+            number: '04',
+            title: 'Lorem Ipsum',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',        
+        }
+]
+
 export function HomeAbout() {
     const [ index ,setIndex] = useState(0);
     return (
-        <section className="bg-petroleum_green p-6 pt-16 mb-20 overflow-hidden">
+        <section className="bg-petroleum_green p-6 pt-16 mb-20 ">
             <div className="max-w-[1440px] mx-auto p-6 lg:p-0" data-aos="fade-up">
                 <div className="flex flex-col gap-8">
                     <h1 className="uppercase text-white font-bold text-3xl" data-aos="fade-down">SOBRE NÓS</h1>
@@ -26,7 +49,7 @@ export function HomeAbout() {
                 </div>
             </div>
             </div>
-            <div className="flex flex-col gap-12 mt-12">
+            <div className="hidden lg:flex lg:flex-col lg:gap-12 lg:mt-12">
                 {[1, 2, 3, 4].map((_, i) => (
                     <motion.div
                         key={i}
@@ -47,6 +70,17 @@ export function HomeAbout() {
                         </div>
                     </motion.div>
                 ))}
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:hidden"> 
+                {cardInteractionsData.map((item, index) => {
+                    return (
+                        <div className="lg:w-[450px] h-[520px] flex items-center flex-col justify-center p-6 lg:p-24 bg-deep_blue rounded-2xl" key={index} data-aos="fade-up">
+                            <h1 className="mb-4 text-3xl font-bold text-white">{item.number}</h1>
+                            <h2 className="text-white text-2xl font-bold mb-4">{item.title}</h2>
+                            <p className="text-white text-base text-center max-w-[500px]">{item.description}</p>
+                        </div>
+                    )
+                })}
             </div>
         </section>
     );

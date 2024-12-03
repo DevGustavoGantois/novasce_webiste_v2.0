@@ -60,7 +60,7 @@ export function Navbar() {
                     </Button>
                 </div>
             </div>
-            <div className="flex lg:hidden">
+            <div className="flex lg:hidden z-50">
                 <NavbarMobile />
             </div>
         </header>
