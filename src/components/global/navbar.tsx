@@ -60,7 +60,7 @@ export function Navbar() {
                     </Button>
                 </div>
             </div>
-            <div className="flex md:hidden">
+            <div className="flex lg:hidden">
                 <NavbarMobile />
             </div>
         </header>

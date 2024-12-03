@@ -5,11 +5,11 @@ import { FiArrowRight } from "react-icons/fi";
 export function HomeInsights() {
   return (
     <section className="max-w-[1440px] mx-auto p-6 lg:p-0 mt-10 lg:mt-40 overflow-hidden" id="Insights">
-      <div className="flex flex-col lg:flex-row lg: justify-between">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-between">
         <div className="flex justify-center lg:justify-start mb-8 lg:mb-16" data-aos="flip-left">
           <Image src="/TitleInsights.svg" width={600} height={200} alt="" />
         </div>
-        <div className="flex justify-center lg:justify-start items-center gap-3 mt-3 mb-3 transition-all duration-700 group  cursor-pointer hover:text-petroleum_green" data-aos="flip-right">
+        <div className="flex justify-center lg:justify-start items-center gap-3 mt-3 lg:-mt-12 mb-3 transition-all duration-700 group  cursor-pointer hover:text-petroleum_green" data-aos="flip-right">
           <span className="text-xl lg:text-2xl font-light text-deep_blue transition-all duration-700 group-hover:text-petroleum_green">
             VEJA MAIS
           </span>
